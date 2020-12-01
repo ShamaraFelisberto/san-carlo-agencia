@@ -28,6 +28,29 @@
       #menu ul li a:hover{
         color: #006600;
       }
+
+      form{
+        border: 2px solid #000000;
+        float: left;
+        padding: 12px;
+        margin-left: 500px;
+        margin-top: 50px;
+        font: 16px Verdana, Geneva, sans-serif;
+        color: #999;
+      }
+      form input{
+        padding:4px;
+        width: 380px;
+        display: block;
+      }
+      form textarea {
+        width: 380px;
+        display: block;
+      }
+      form button{
+        width: 150px;
+        cursor: pointer;
+      }
     </style>
   </head>
   <body>
@@ -40,6 +63,20 @@
         <li><a href = 'atendimento.html'> <h3> Atendimento </h3> </a href></li>
         </ul>
       </div>
-      <h1> Chamados - Formulário </h1>
+      <form action='https://formspree.io/f/xdoplddp' id='form2' method="POST">
+        <h1> Chamados - Formulário </h1>
+        <label>
+          Nome: <input type='text' id='name' name='username'/> <br><br>
+          Assunto: <input type='text' id='assunto' name='assunto'/> <br><br>
+          Categoria: <select id='cat' name='categoria'> <br><br>
+            <option value='cate' selected> Categoria </option>
+            <option value='adm' select> Administrativa </option>
+            <option value='ger'> Gerencial </option>
+            <option value='opr'> Operacional </option>
+          </select>
+          <h4> Detalhamento: </h4>
+          <textarea name="detalhamento" rows="10" cols="30"> </textarea><br><br>
+          <button type='submit' onclick="alert('As respostas foram enviadas!')"> Enviar </button> <br><br>
+          <button type='reset'> Apagar informações </button>
     </body>
 </html>
