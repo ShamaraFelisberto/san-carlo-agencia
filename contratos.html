@@ -28,6 +28,29 @@
       #menu ul li a:hover{
         color: #006600;
       }
+
+      form{
+        border: 1px solid #000000;
+        float: left;
+        padding: 12px;
+        margin-left: 500px;
+        margin-top: 50px;
+        font: 16px Verdana, Geneva, sans-serif;
+        color: #999;
+      }
+      form input{
+        padding:4px;
+        width: 380px;
+        display: block;
+      }
+      form textarea {
+        width: 380px;
+        display: block;
+      }
+      form button{
+        width: 150px;
+        cursor: pointer;
+      }
     </style>
   </head>
   <body>
@@ -40,7 +63,25 @@
         <li><a href = 'atendimento.html'> <h3> Atendimento </h3> </a href></li>
       </ul>
     </div>
-
-    <h1> Contratos - Formulário </h1>
+    <form action='https://formspree.io/f/mqkgdleo' id='form1' name='formulario-inscricao' method='POST'>
+      <h1> Contratos - Formulário </h1>
+      <label>
+        Nome: <input type='text' id= 'name' name='username'/> <br><br>
+        Email: <input type='email' id='email' name='email'/> <br><br>
+        Endereço: <input type='text' id='end' name=' endereco'/> <br><br>
+        Data de nascimento: <input type='date' id='nasc' name='nascimento' min='1990-01-01'/> <br><br>
+        Telefone: <input type='text' id='tel' name='telefone' placeholder="(84)98801-2354" pattern="([0-9]){2}[0-9]{5}-[0-9]{4}"/> <br><br>
+        Cargo:<select id="cargo" name="cargo">
+          <option value='car' selected> Cargo </option>
+          <option value='motorista'> Motorista </option>
+          <option value="vendedor(a)"> Vendedor(a) de passagens (guichê) </option>
+          <option value='supervisor'> Supervisor </option>
+          <option value='auxiliar adm'> Auxiliar Administrativo </option>
+          <option value='gerente'> Gerente </option>
+        </select><br><br>
+        Currículo: <input type='text' id='curr' name='curriculo' placeholder="Envio através de link"/><br><br>
+        <button type='submit' onclick="alert('As respostas foram enviadas!')"> Enviar </button> <br><br>
+        <button type='reset'> Apagar informações </button>
+      </label>
   </body>
 </html>
