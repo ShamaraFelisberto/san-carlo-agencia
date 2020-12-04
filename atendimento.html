@@ -5,6 +5,7 @@
     <style>
       body {
         margin: 0;
+        background-color: yellow;
       }
 
       #menu ul{
@@ -26,10 +27,38 @@
       }
 
       #menu ul li a:hover{
-        color: #006600;
+        color: red;
+      }
+      #link{
+        text-decoration: none;
+        color: black;
+      }
+      #d1{
+        width: 300px;
+        height: 200px;
+        background-color: white;
+        border-style: groove;
+        text-align: center;
+        border-width: 20px;
+        border-color: #F00;
+        margin-left: 520px;
+        font: 13px Courier;
+      }
+
+      #d2{
+        font: 20px Fantasy ;
+        text-align: center;
+      }
+      #d3{
+        width: 70px;
+        height: 40px;
+        border-style: solid;
+        border-color: black;
+        font: 12px Cursive;
+        margin-left: 110px;
       }
     </style>
-</head>
+  </head>
   <body>
     <div id= 'menu'>
       <ul>
@@ -40,12 +69,17 @@
         <li><a href = 'atendimento.html'> <h3> Atendimento </h3> </a href></li>
       </ul>
     </div>
-
-    <h1> Atendimento </h1>
-    <p>
-      <br> Telefone: (84) 4002-8922, (84) 2298-2004; </br>
-      <br> Email: sancarloagencia@gmail.com; </br>
-    </p>
-    <a href='chamados.html'> <h3> Chamados </h3> </a>
+    <div id='d2'>
+      <h1> Atendimento </h1>
+    </div>
+    <div id='d1'>
+      <p>
+        <br><b>Telefone:</b>(84) 4002-8922, (84) 2298-2004 </br>
+        <br><b> Email:</b>sancarloagencia@gmail.com </br>
+      </p>
+      <div id='d3'>
+        <a href='chamados.html' id= 'link'> <h3> Chamados </h3> </a>
+      </div>
+    </div>
   </body>
 </html>
