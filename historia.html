@@ -5,6 +5,7 @@
     <style>
     body {
         margin: 0;
+        background-color: yellow;
       }
 
       #menu ul{
@@ -26,11 +27,27 @@
       }
 
       #menu ul li a:hover{
-        color: #006600;
+        color: red;
       }
 
       #imagem{
         float: left;
+        margin-left: 0px;
+      }
+      #d1{
+        width: 500px;
+        height: 300px;
+        background-color: white;
+        border-style: groove;
+        text-align: center;
+        border-width: 20px;
+        border-color: #F00;
+        margin-left: 520px;
+        font: 17px Verdana;
+      }
+
+      #d2{
+        font: 20px Fantasy;
       }
     </style>
   </head>
@@ -44,12 +61,14 @@
         <li><a href = 'atendimento.html'> <h3> Atendimento </h3> </a href></li>
       </ul>
     </div>
-    <h1> História da empresa </h1>
-      <img src = 'logotipo.png' width = '500' height = '500' id='imagem'>
-      <p>
-      Os fundamentos da empresa foram idealizados por dois irmãos (Tom e Jerry) argentinos que foram naturalizados no Brasil.
-      No final dos anos oitenta, eles fizeram uma viagem ao nordeste e ficaram encantados com as belezas naturais dessa região,
-      os dois irmãos viram nesse cenário uma oportunidade visionária de criar uma empresa que pudesse propiciar às pessoas experiências inesquecíveis ao explorar uma região rica e bela como o nordeste brasileiro.
-      </p>
+    <div id='d2'>
+      <h1> História da empresa </h1>
+    </div>
+    <img src = 'logotipo.png' width = '500' height = '500' id='imagem'>
+    <div id='d1'>
+      <br> Os fundamentos da empresa foram idealizados por dois irmãos (Tom e Jerry) argentinos que foram naturalizados no Brasil. </br>
+      <br> No final dos anos oitenta, eles fizeram uma viagem ao nordeste e ficaram encantados com as belezas naturais dessa região. </br>
+      <br> Os dois irmãos viram nesse cenário uma oportunidade visionária de criar uma empresa que pudesse propiciar às pessoas experiências inesquecíveis ao explorar uma região rica e bela como o nordeste brasileiro. </br>
+    </div>
     </body>
 </html>
