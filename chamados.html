@@ -1,10 +1,11 @@
 <html>
   <head>
-    <title> Chamados </title>
+    <title> Capitais e seus horários </title>
     <meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″>
     <style>
       body {
         margin: 0;
+        background-color: yellow;
       }
 
       #menu ul{
@@ -26,30 +27,31 @@
       }
 
       #menu ul li a:hover{
-        color: #006600;
+        color: red;
       }
 
-      form{
-        border: 2px solid #000000;
+      .capitais{
+        margin: 5% 10% 0% 10%;
+      }
+      .card{
+        border-widht: 1px;
+        border-style: solid;
+        border-color: black;
+        background-color: white;
+        width: 300px;
+        height: 300px;
         float: left;
-        padding: 12px;
-        margin-left: 500px;
-        margin-top: 50px;
-        font: 16px Verdana, Geneva, sans-serif;
-        color: #999;
+        margin: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
       }
-      form input{
-        padding:4px;
-        width: 380px;
-        display: block;
+      #d1{
+        font: 20px Fantasy ;
+        text-align: center;
       }
-      form textarea {
-        width: 380px;
-        display: block;
-      }
-      form button{
-        width: 150px;
-        cursor: pointer;
+      #link{
+        text-decoration: none;
+        color: orange;
+        text-align: left;
       }
     </style>
   </head>
@@ -61,22 +63,48 @@
         <li> <a href = 'capitais.html'> <h3> Horários </h3> </a href> </li>
         <li><a href = 'contratos.html'> <h3> Contratos </h3> </a href></li>
         <li><a href = 'atendimento.html'> <h3> Atendimento </h3> </a href></li>
-        </ul>
+      </ul>
+    </div>
+    <div id='d1'>
+    <h1> Capitais e seus horários </h1>
+    </div>
+    <div class= 'capitais'>
+      <div class = 'card'>
+        <img src = 'Natal.png' width = '250' height = '200' />
+        <a href = 'Natal.html' id='link'> <h3> Natal </h3> </a href>
       </div>
-      <form action='https://formspree.io/f/xdoplddp' id='form2' method="POST">
-        <h1> Chamados - Formulário </h1>
-        <label>
-          Nome: <input type='text' id='name' name='username'/> <br><br>
-          Assunto: <input type='text' id='assunto' name='assunto'/> <br><br>
-          Categoria: <select id='cat' name='categoria'> <br><br>
-            <option value='cate' selected> Categoria </option>
-            <option value='adm' select> Administrativa </option>
-            <option value='ger'> Gerencial </option>
-            <option value='opr'> Operacional </option>
-          </select>
-          <h4> Detalhamento: </h4>
-          <textarea name="detalhamento" rows="10" cols="30"> </textarea><br><br>
-          <button type='submit' onclick="alert('As respostas foram enviadas!')"> Enviar </button> <br><br>
-          <button type='reset'> Apagar informações </button>
-    </body>
+      <div class = 'card'>
+        <img src = 'João_Pessoa.jpg' width = '250' height = '200' />
+        <a href = 'João Pessoa.html' id='link'> <h3> João Pessoa </h3> </a href>
+      </div>
+      <div class = 'card'>
+        <img src = 'Recife.jpg' width = '250' height = '200/' />
+        <a href = 'Recife.html' id='link'> <h3> Recife </h3> </a href>
+      </div>
+      <div class = 'card'>
+        <img src = 'Maceio.jpg' width = '250' height = '200' />
+        <a href = 'Maceió.html' id='link'> <h3> Maceió </h3> </a href>
+      </div>
+      <div class = 'card'>
+        <img src = 'Aracaju.jpeg' width = '250' height = '200' />
+        <a href = 'Aracaju.html' id='link'> <h3> Aracaju </h3> <a href>
+      </div>
+      <div class ='card'>
+        <img src = 'Salvador.jpg' width = '250' height = '200' />
+        <a href = 'Salvador.html' id='link'> <h3> Salvador </h3> </a href>
+      </div>
+      <div class ='card'>
+        <img src = 'Fortaleza.png' width = '250' height = '200' />
+        <a href = 'Fortaleza.html' id='link'> <h3> Fortaleza </h3> </a href>
+      </div>
+      <div class='card'>
+        <img src = 'Teresina.jpeg' width = '250' height = '200' />
+        <a href = 'Teresina.html' id='link'> <h3> Teresina </h3> </a href>
+      </div>
+      <div class ='card'>
+        <img src = 'São_Luis.png' width = '250' height = '200' />
+        <a href = 'São Luís.html' id='link'> <h3> São Luís </h3> <a href>
+      </div>
+    </div>
+  </body>
 </html>
