@@ -4,7 +4,7 @@
     <style>
       body {
           margin: 0;
-          background-color: yellow;
+          background-color: #00BCD4;
       }
 
       #menu ul{
@@ -26,7 +26,7 @@
       }
 
       #menu ul li a:hover{
-        color: red;
+        color: purple;
       }
 
       #d2{
@@ -38,14 +38,18 @@
         height: 35px;
         border-style: solid;
         border-color: black;
-        font: 20px Cursive;
+        border-width: 0px;
+        font: 23px Geneva;
         margin-left: 1000px;
         position: fixed;
-        background-color: white;
+        background-color: #FBC02D;
       }
       #link{
         text-decoration: none;
         color: black;
+      }
+      #table{
+        background-color: #FBC02D;
       }
     </style>
   </head>
@@ -63,7 +67,7 @@
       <div id='d2'>
         <h3> Horários da manhã </h3>
       </div>
-      <div id='d3'>
+      <div id='d3' align='center'>
         <a href = 'reserva.html' width= '50' id='link'><strong> Faça a sua reserva aqui </strong></a>
       </div>
       <tr>
@@ -74,7 +78,7 @@
         <th width = "150" height = '50' bgcolor = "#00FFFF"> Parada 2/ Preço do embarque </th>
         <th width = "150" height = '50' bgcolor = "#00FFFF"> Parada 3/ Preço do embarque </th>
       </tr>
-      <tr>
+      <tr id= 'table'>
         <td height = '40'> Natal - João Pessoa </td>
         <td height = '40'> 07h/ R$ 25,00 </td>
         <td height = '40'  align = "center"> 12h </td>
@@ -82,7 +86,7 @@
         <td height = '40'> Mamanguape/ R$ 10,00 </td>
         <td height = '40'> Bayeux/ R$ 5,00 </td>
       </tr>
-      <tr>
+      <tr id= 'table'>
         <td height = '40'> Natal - Recife </td>
         <td height = '40'> 07h/ R$ 35,00 </td>
         <td height = '40'  align = "center"> 17h </td>
@@ -90,7 +94,7 @@
         <td height = '40'> Goiana/ R$ 15,00 </td>
         <td height = '40'> Igarassu/ R$ 10,00 </td>
       </tr>
-      <tr>
+      <tr id= 'table'>
         <td height = '40'> Natal - Maceió </td>
         <td height = '40'> 08h/ R$ 50,00 </td>
         <td height = '40'  align = "center"> 20h </td>
@@ -98,7 +102,7 @@
         <td height = '40'> Recife/ R$ 20,00 </td>
         <td height = '40'> Caruaru/ R$ 10,00 </td>
       </tr>
-      <tr>
+      <tr id= 'table'>
         <td height = '40'> Natal - Aracaju </td>
         <td height = '40'> 08h/ R$ 70,00 </td>
         <td height = '40'  align = "center"> 23h50 </td>
@@ -106,7 +110,7 @@
         <td height = '40'> Recife/ R$ 25,00 </td>
         <td height = '40'> Maceió/ R$ 25,00 </td>
       </tr>
-      <tr>
+      <tr id= 'table'>
         <td height = '40'> Natal - Salvador </td>
         <td height = '40'> 09h/ R$ 100,00 </td>
         <td height = '40'  align = "center"> 12h (27h de viagem)</td>
@@ -114,7 +118,7 @@
         <td height = '40'> Maceió/ R$ 75,00 </td>
         <td height = '40'> Aracaju/ R$ 25,00 </td>
       </tr>
-      <tr>
+      <tr id= 'table'>
         <td height = '40'> Natal - Teresina </td>
         <td height = '40'> 09h/ R$ 75,00 </td>
         <td height = '40'  align = "center"> 11h (26h de viagem) </td>
@@ -122,7 +126,7 @@
         <td height = '40'> Floriano/ R$ 40,00 </td>
         <td height = '40'> Picos/ R$ 25,00 </td>
       </tr>
-      <tr>
+      <tr id= 'table'>
         <td height = '40'> Natal - Fortaleza </td>
         <td height = '40'> 10h/ R$ 45,00 </td>
         <td height = '40'  align = "center"> 23h30 </td>
@@ -130,7 +134,7 @@
         <td height = '40'> Mossoró/ R$ 35,00 </td>
         <td height = '40'> Aracati/ R$ 25,00 </td>
       </tr>
-      <tr>
+      <tr id= 'table'>
         <td height = '40'> Natal - São Luís </td>
         <td height = '40'> 11h/ R$ 85,00 </td>
         <td height = '40'  align = "center"> 12h (49 horas de viagem) </td>
@@ -144,14 +148,14 @@
         <h3>  Horários da tarde </h3>
       </div>
       <tr>
-        <th width = "150" height = '50' bgcolor = "#DAA520"> Natal </th>
-        <th width = "125" height = '50' bgcolor = "#DAA520"> Saída/Preço da passagem </th>
-        <th width = "175" height = '50' bgcolor = "#DAA520"> Previsão de chegada </th>
-        <th width = "150" height = '50' bgcolor = "#DAA520"> Parada 1/ Preço de embarque </th>
-        <th width = "150" height = '50' bgcolor = "#DAA520"> Parada 2/ Preço do embarque </th>
-        <th width = "150" height = '50' bgcolor = "#DAA520"> Parada 3/ Preço do embarque </th>
+        <th width = "150" height = '50' bgcolor = "#FF5722" > Natal </th>
+        <th width = "125" height = '50' bgcolor = "#FF5722"> Saída/Preço da passagem </th>
+        <th width = "175" height = '50' bgcolor = "#FF5722"> Previsão de chegada </th>
+        <th width = "150" height = '50' bgcolor = "#FF5722"> Parada 1/ Preço de embarque </th>
+        <th width = "150" height = '50' bgcolor = "#FF5722"> Parada 2/ Preço do embarque </th>
+        <th width = "150" height = '50' bgcolor = "#FF5722"> Parada 3/ Preço do embarque </th>
       </tr>
-      <tr>
+      <tr id= 'table'>
         <td height = '40'> Natal - João Pessoa </td>
         <td height = '40'> 13h/ R$ 25,00 </td>
         <td height = '40' align = "center"> 18h </td>
@@ -159,7 +163,7 @@
         <td height = '40'> Mamanguape/ R$ 10,00 </td>
         <td height = '40'> Bayeux/ R$ 5,00 </td>
       </tr>
-      <tr>
+      <tr id= 'table'>
         <td height = '40'> Natal - Recife </td>
         <td height = '40'> 13h/ R$ 35,00 </td>
         <td height = '40' align = "center"> 23h </td>
@@ -167,7 +171,7 @@
         <td height = '40'> Goiana/ R$ 15,00 </td>
         <td height = '40'> Igarassu/ R$ 10,00 </td>
       </tr>
-      <tr>
+      <tr id= 'table'>
         <td height = '40'> Natal - Maceió </td>
         <td height = '40'> 14h/ R$ 50,00 </td>
         <td height = '40' align = "center"> 05h50 </td>
@@ -175,7 +179,7 @@
         <td height = '40'> Recife/ R$ 20,00 </td>
         <td height = '40'> Caruaru/ R$ 10,00 </td>
       </tr>
-      <tr>
+      <tr id= 'table'>
         <td height = '40'> Natal - Aracaju </td>
         <td height = '40'> 14h/ R$ 70,00 </td>
         <td height = '40' align = "center"> 01h </td>
@@ -183,7 +187,7 @@
         <td height = '40'> Recife/ R$ 25,00 </td>
         <td height = '40'> Maceió/ R$ 25,00 </td>
       </tr>
-      <tr>
+      <tr id= 'table'>
         <td height = '40'> Natal - Salvador </td>
         <td height = '40'> 15h/ R$ 100,00 </td>
         <td height = '40' align = "center"> 18h (27h de viagem)</td>
@@ -191,7 +195,7 @@
         <td height = '40'> Maceió/ R$ 75,00 </td>
         <td height = '40'> Aracaju/ R$ 25,00 </td>
       </tr>
-      <tr>
+      <tr id= 'table'>
         <td height = '40'> Natal - Teresina </td>
         <td height = '40'> 15h/ R$ 75,00 </td>
         <td height = '40' align = "center"> 17h (26h de viagem) </td>
@@ -199,7 +203,7 @@
         <td height = '40'> Floriano/ R$ 40,00 </td>
         <td height = '40'> Picos/ R$ 25,00 </td>
       </tr>
-      <tr>
+      <tr id= 'table'>
         <td height = '40'> Natal - Fortaleza </td>
         <td height = '40'> 16h/ R$ 45,00 </td>
         <td height = '40' align = "center"> 05h30 </td>
@@ -207,7 +211,7 @@
         <td height = '40'> Mossoró/ R$ 35,00 </td>
         <td height = '40'> Aracati/ R$ 25,00 </td>
       </tr>
-      <tr>
+      <tr id= 'table'>
         <td height = '40'> Natal - São Luís </td>
         <td height = '40'> 17h/ R$ 85,00 </td>
         <td height = '40' align = "center"> 18h (49 horas de viagem) </td>
@@ -221,15 +225,15 @@
         <h3> Informações sobre a frota de ônibus </h3>
       </div>
       <tr>
-        <th bgcolor = "	#FA8072"> Ônibus - Natal </th>
-        <th bgcolor = "	#FA8072"> Assentos </th>
-        <th bgcolor = "	#FA8072"> Banheiro </th>
-        <th bgcolor = "	#FA8072"> Wifi </th>
-        <th bgcolor = "	#FA8072"> Última manutenção </th>
-        <th bgcolor = "	#FA8072"> Próxima manutenção </th>
-        <th bgcolor = "	#FA8072"> Data de fabricação </th>
+        <th bgcolor = "Purple"> Ônibus - Natal </th>
+        <th bgcolor = "Purple"> Assentos </th>
+        <th bgcolor = "Purple"> Banheiro </th>
+        <th bgcolor = "Purple"> Wifi </th>
+        <th bgcolor = "Purple"> Última manutenção </th>
+        <th bgcolor = "Purple"> Próxima manutenção </th>
+        <th bgcolor = "Purple"> Data de fabricação </th>
       </tr>
-      <tr align = "center">
+      <tr align = "center" id= 'table'>
         <td> 111 </td>
         <td> 40 </td>
         <td> Possui </td>
@@ -238,7 +242,7 @@
         <td> 12/06/2021 </td>
         <td> 2000 </td>
       </tr>
-      <tr align = "center">
+      <tr align = "center" id= 'table'>
         <td> 108 </td>
         <td> 40 </td>
         <td> Possui </td>
@@ -247,7 +251,7 @@
         <td> 13/06/2021 </td>
         <td> 2000 </td>
       </tr>
-      <tr align = "center">
+      <tr align = "center" id= 'table'>
         <td> 117 </td>
         <td> 40 </td>
         <td> Possui </td>
@@ -256,7 +260,7 @@
         <td> 11/06/2021 </td>
         <td> 2000 </td>
       </tr>
-      <tr align = "center">
+      <tr align = "center" id= 'table'>
         <td> 190 </td>
         <td> 40 </td>
         <td> Possui </td>
@@ -264,7 +268,7 @@
         <td> 12/06/2020 </td>
         <td> 12/06/2021 </td>
         <td> 2000 </td>
-        <tr align = "center">
+        <tr align = "center" id= 'table'>
           <td> 178 </td>
           <td> 40 </td>
           <td> Possui </td>
@@ -273,7 +277,7 @@
           <td> 01/10/2021 </td>
           <td> 2000 </td>
         </tr>
-        <tr align = "center">
+        <tr align = "center" id= 'table'>
           <td> 123 </td>
           <td> 40 </td>
           <td> Possui </td>
@@ -282,7 +286,7 @@
           <td> 12/06/2021 </td>
           <td> 2000 </td>
         </tr>
-        <tr align = "center">
+        <tr align = "center" id= 'table'>
           <td> 154 </td>
           <td> 40 </td>
           <td> Possui </td>
@@ -291,7 +295,7 @@
           <td> 17/08/2021 </td>
           <td> 2000 </td>
         </tr>
-        <tr align = "center">
+        <tr align = "center" id= 'table'>
           <td> 165 </td>
           <td> 35 </td>
           <td> Possui </td>
@@ -300,7 +304,7 @@
           <td> 12/09/2021 </td>
           <td> 2000 </td>
         </tr>
-        <tr align = "center">
+        <tr align = "center" id= 'table'>
           <td> 143 </td>
           <td> 35 </td>
           <td> Possui </td>
@@ -309,7 +313,7 @@
           <td> 12/06/2021 </td>
           <td> 2000 </td>
         </tr>
-        <tr align = "center">
+        <tr align = "center" id= 'table'>
           <td> 147 </td>
           <td> 35 </td>
           <td> Possui </td>
@@ -318,7 +322,7 @@
           <td> 12/06/2021 </td>
           <td> 2000 </td>
         </tr>
-        <tr align = "center">
+        <tr align = "center" id= 'table'>
           <td> 156 </td>
           <td> 35 </td>
           <td> Possui </td>
@@ -327,7 +331,7 @@
           <td> 12/06/2021 </td>
           <td> 2000 </td>
         </tr>
-        <tr align = "center">
+        <tr align = "center" id= 'table'>
           <td> 102 </td>
           <td> 35 </td>
           <td> Possui </td>
@@ -336,7 +340,7 @@
           <td> 12/06/2021 </td>
           <td> 2000 </td>
         </tr>
-        <tr align = "center">
+        <tr align = "center" id= 'table'>
           <td> 176 </td>
           <td> 35 </td>
           <td> Possui </td>
@@ -345,7 +349,7 @@
           <td> 20/06/2021 </td>
           <td> 2000 </td>
         </tr>
-        <tr align = "center">
+        <tr align = "center" id= 'table'>
           <td> 177 </td>
           <td> 35 </td>
           <td> Possui </td>
@@ -354,7 +358,7 @@
           <td> 20/06/2021 </td>
           <td> 2000 </td>
         </tr>
-        <tr align = "center">
+        <tr align = "center" id= 'table'>
           <td> 135 </td>
           <td> 35 </td>
           <td> Possui </td>
@@ -363,7 +367,7 @@
           <td> 20/06/2021 </td>
           <td> 2000 </td>
         </tr>
-        <tr align = "center">
+        <tr align = "center" id= 'table'>
           <td> 198 </td>
           <td> 35 </td>
           <td> Possui </td>
@@ -372,7 +376,7 @@
           <td> 20/06/2021 </td>
           <td> 2000 </td>
         </tr>
-        <tr align = "center">
+        <tr align = "center" id= 'table'>
           <td> 137 </td>
           <td> 35 </td>
           <td> Possui </td>
